@@ -5,7 +5,7 @@ This project is a Python script that uses Selenium and BeautifulSoup to extract 
 
 # Features
 Search and Scrape: Automatically performs searches on a web page and scrapes email addresses from the results.
-Extract H1 Content: Captures the content of the h1 tag from a specific <div> for each search result which represents the name of the Group.
+Extract H1 Content: Captures the content of the h1 tag from a specific div for each search result which represents the name of the Group.
 Tab-Delimited Output: Saves the extracted information in a tab-delimited file.
 
 # Requirements
