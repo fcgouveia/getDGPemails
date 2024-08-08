@@ -24,7 +24,9 @@ ChromeDriver (compatible with your version of Chrome)
 Clone the Repository:
 
 bash
+
 git clone https://github.com/fcgouveia/getDGPemails.git
+
 cd getDGPemails
 
 # Install Dependencies:
@@ -32,11 +34,13 @@ cd getDGPemails
 You need to have Python installed. Then, install the required Python packages using pip:
 
 bash
+
 pip install selenium beautifulsoup4
 
 Download ChromeDriver:
 
 Download the ChromeDriver executable from ChromeDriver Download.
+
 Ensure that chromedriver.exe is available in your system path or specify its path directly in the script.
 
 # Usage
@@ -50,7 +54,9 @@ Run the Script:
 Ensure you have chromedriver.exe in the same directory as the script or specify its path in the ChromeService line. Then, run the script:
 
 bash
+
 python getDGPemails.py
+
 The script will read search terms from grupos.txt, perform searches, and save the results in emails.tsv.
 
 # Script Details
