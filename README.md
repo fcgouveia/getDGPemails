@@ -57,7 +57,7 @@ Functions
 
 extract_emails(driver): Extracts email addresses from the page source using BeautifulSoup.
 extract_h1_content(driver): Extracts the content of the h1 tag within the div id="tituloImpressao".
-search_and_scrape(search_terms, base_url, output_csv): Performs searches, modifies the page behavior to avoid opening new tabs, and writes results to a tab-delimited file.
+search_and_scrape(search_terms, base_url, output_csv): Performs searches, modifies the page behaviour to avoid opening new tabs, and writes results to a tab-delimited file.
 
 Output
 
@@ -73,7 +73,7 @@ Email: Extracted email address or "not found" if no emails were found.
 # Troubleshooting
 
 ChromeDriver Issues: Ensure ChromeDriver is compatible with your version of Google Chrome.
-Encoding Errors: Make sure all files are encoded in UTF-8 to avoid encoding-related issues.
+Encoding Errors: Ensure all files are encoded in UTF-8 to avoid encoding-related issues.
 Element Not Found: If elements are not found, verify that the webpage structure has not changed or adjust the selectors.
 
 # License
