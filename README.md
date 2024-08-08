@@ -1,9 +1,11 @@
 # getDGPemail
+
 Python 3 script to scrape the emails from CNPq Diretório de Grupos de Pesquisa based on their names
 
 This project is a Python script that uses Selenium and BeautifulSoup to extract email addresses and relevant information from the web page of Diretório de Grupos de Pesquisa based on search terms. The script interacts with a specific webpage to perform searches, navigate through results, and scrape data.
 
 # Features
+
 Search and Scrape: Automatically performs searches on a web page and scrapes email addresses from the results.
 Extract H1 Content: Captures the content of the h1 tag from a specific div for each search result which represents the name of the Group.
 Tab-Delimited Output: Saves the extracted information in a tab-delimited file.
@@ -16,6 +18,7 @@ BeautifulSoup4
 ChromeDriver (compatible with your version of Chrome)
 
 # Installation
+
 Clone the Repository:
 
 bash
